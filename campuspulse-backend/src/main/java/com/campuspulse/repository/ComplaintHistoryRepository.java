@@ -1,0 +1,1 @@
+package com.campuspulse.repository;import com.campuspulse.entity.ComplaintHistory;import org.springframework.data.jpa.repository.JpaRepository;public interface ComplaintHistoryRepository extends JpaRepository<ComplaintHistory,Long>{java.util.List<ComplaintHistory> findByComplaintIdOrderByCreatedAtAsc(Long id);}

@@ -1,0 +1,1 @@
+package com.campuspulse.service;import com.campuspulse.dto.request.Requests;import com.campuspulse.dto.response.Responses;import com.campuspulse.entity.User;public interface AuthService{Responses.UserView signup(Requests.Signup request);Responses.AuthView login(Requests.Login request);User current();Responses.UserView update(Requests.Profile request);}

@@ -1,0 +1,1 @@
+package com.campuspulse.enums; public enum Category {WIFI,ELECTRICAL,WATER,CLEANLINESS,INFRASTRUCTURE,SECURITY,OTHER}

@@ -1,0 +1,1 @@
+package com.campuspulse.enums; public enum Priority {LOW,MEDIUM,HIGH,CRITICAL}

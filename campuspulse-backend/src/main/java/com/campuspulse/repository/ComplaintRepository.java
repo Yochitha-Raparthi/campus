@@ -1,0 +1,1 @@
+package com.campuspulse.repository;import com.campuspulse.entity.Complaint;import org.springframework.data.jpa.repository.JpaRepository;public interface ComplaintRepository extends JpaRepository<Complaint,Long>{org.springframework.data.domain.Page<Complaint> findByStudentId(Long id,org.springframework.data.domain.Pageable p);}

@@ -1,0 +1,1 @@
+package com.campuspulse.enums; public enum Status {SUBMITTED,UNDER_REVIEW,ASSIGNED,IN_PROGRESS,RESOLVED,REJECTED}
